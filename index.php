@@ -5,8 +5,8 @@
 </head>
 <body>
 <?php
-function ShowIndexMessage($msgindex){ echo "<strong>$msgindex</strong>"; }
+function ShowIndexMessage($msgindex){ echo "<strong>$msgindex</strong><br >"; }
 ShowIndexMessage("Estamos no Index.php - v2.0");
-echo "<a href=\"\">Ir para msg.php</a>";
+echo "<a href=\"msg.php\">Ir para msg.php</a>";
 ?>
 </body></html>

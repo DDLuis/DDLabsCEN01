@@ -5,8 +5,8 @@
 </head>
 <body>
 <?php
-function ShowMessage($msg,$version){echo "<strong>$msg</strong> - $version";}
+function ShowMessage($msg,$version){echo "<strong>$msg</strong> - $version<br />";}
 ShowMessage("Estamos no Msg.php","v2.0");
-echo "<a href=\"\">Voltar para index.php</a>";
+echo "<a href=\"index.php\">Voltar para index.php</a>";
 ?>
 </body></html>
