@@ -7,6 +7,6 @@
 <?php
 function ShowMessage($msg,$version){ echo "<h3>$msg - $version</h3>";}
 ShowMessage("Estamos no Msg.php","v1.0");
-echo "<a href=\"\">Voltar para index.php</a>";
+echo "<a href=\"index.php\">Voltar para index.php</a>";
 ?>
 </body></html>
